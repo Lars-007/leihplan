@@ -1,0 +1,25 @@
+{
+  "name": "leihplan-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API für LeihPlan (Express + SQLite)",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "start": "node src/index.ts",
+    "seed": "node src/seed.ts",
+    "test": "node --test test/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

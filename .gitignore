@@ -1,0 +1,27 @@
+# Abhängigkeiten
+node_modules/
+
+# Build-Ausgabe
+client/dist/
+
+# Lokale Datenbank (enthält eingegebene Daten, gehört nicht ins Repository)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Lokale Einstellungen und Geheimnisse
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor und Betriebssystem
+.DS_Store
+.vscode/
+.idea/
